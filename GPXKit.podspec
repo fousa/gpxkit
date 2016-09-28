@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GPXKit'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Parse a GPX file into a readable format with Swift.'
 
   s.description      = <<-DESC
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Jelle Vandebeeck' => 'jelle@fousa.be' }
   s.source           = { git: 'https://github.com/fousa/gpxkit.git', tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/fousa'
+  s.deprecated_in_favour_of = 'TrackKit'
 
   s.ios.deployment_target     = '8.0'
   s.osx.deployment_target     = '10.10'
